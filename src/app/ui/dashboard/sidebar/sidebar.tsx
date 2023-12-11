@@ -22,6 +22,11 @@ const menuItems = [
         path: "/dashboard/coffee",
         icon: "",
       },
+      {
+        title: "Recipes",
+        path: "/dashboard/recipes",
+        icon: "",
+      },
     ],
   },
 ];
