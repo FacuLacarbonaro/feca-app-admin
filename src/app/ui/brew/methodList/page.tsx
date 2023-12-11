@@ -6,7 +6,7 @@ interface MethodListProps {
 
 interface Method {
   name: string;
-  img: string;
+  img: string | any;
   type: string;
 }
 

@@ -6,7 +6,7 @@ import V60 from "../../../../../public/images/methods/V60.png";
 interface IMethod {
   method: {
     name: string;
-    img: string;
+    img: string | any;
     type: string;
   };
 }
@@ -15,9 +15,9 @@ const MethodCard = ({ method }: IMethod) => {
   return (
     <div className="w-60 bg-transparent">
       <Image
-        src={V60}
+        src={method.img}
         alt=""
-        width={288}
+        width={300}
         height={100}
         className="duration-500 hover:scale-105"
       />

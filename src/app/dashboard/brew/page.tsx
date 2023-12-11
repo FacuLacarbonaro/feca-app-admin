@@ -4,9 +4,7 @@ import { Methods } from "../../../../public/mock/methods";
 const Brew = () => {
   return (
     <div>
-      <h2 className=" text-4xl text-orange-400">
-        Brewing methods collection
-      </h2>
+      <h2 className=" text-4xl text-orange-400">Brewing methods collection</h2>
 
       <div>
         <MethodList methodList={Methods} />
